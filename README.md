@@ -1,27 +1,19 @@
-# NgStarterProject
+# ng-starter-project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
+
+## Generate a new project
+
+Run `ng new starter-project` to a new Angular project 
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Installing Nebular Theme
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Nebular supports init configuration with Angular Schematics. This means you can simply add it to your project by running `ng add @nebular/theme`, and Angular Schematics will do the rest
 
-## Build
+## Installing Nebular Auth & Security
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Optionally, you can install nebular Auth and Securityby running `npm install --save @nebular/auth @nebular/security`.
